@@ -6555,11 +6555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sshekhawat\\Desktop\\CDAAS\\testframework\\CDAAS_TestFramework\\CDAAS_TestFramework.csproj",
+      "projectUniqueName": "C:\\Users\\sshekhawat\\Desktop\\CDAAS_GitHub\\TestFrameWorkForAWS\\testframework\\CDAAS_TestFramework\\CDAAS_TestFramework.csproj",
       "projectName": "CDAAS_TestFramework",
-      "projectPath": "C:\\Users\\sshekhawat\\Desktop\\CDAAS\\testframework\\CDAAS_TestFramework\\CDAAS_TestFramework.csproj",
+      "projectPath": "C:\\Users\\sshekhawat\\Desktop\\CDAAS_GitHub\\TestFrameWorkForAWS\\testframework\\CDAAS_TestFramework\\CDAAS_TestFramework.csproj",
       "packagesPath": "C:\\Users\\sshekhawat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sshekhawat\\Desktop\\CDAAS\\testframework\\CDAAS_TestFramework\\obj\\",
+      "outputPath": "C:\\Users\\sshekhawat\\Desktop\\CDAAS_GitHub\\TestFrameWorkForAWS\\testframework\\CDAAS_TestFramework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

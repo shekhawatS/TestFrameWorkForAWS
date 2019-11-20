@@ -8,7 +8,6 @@ namespace UnitTestProjectCoreMesTest
         [TestMethod]
         public void TestMethod1()
         {
-
             //kept on purpose
             Assert.IsFalse(true);
         }
