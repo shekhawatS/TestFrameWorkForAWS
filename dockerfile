@@ -20,4 +20,4 @@ RUN dotnet publish -c Release -o /app
 EXPOSE 6000-6001
 
 # Run command for the web application
-ENTRYPOINT ["dotnet", "/app/SampleWebApp.
+ENTRYPOINT ["dotnet", "/app/SampleWebApp.dll"]
