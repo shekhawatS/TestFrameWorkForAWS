@@ -8,16 +8,16 @@ ENV ASPNETCORE_URLS http://+:6000
 WORKDIR /tst
 
 # First only copy the web app project file inside the image and restore dependencies.
-COPY /SampleWebApp/SampleWebApp.csproj ./
+COPY /CDAAS_TestFramework/CDAAS_TestFramework.csproj ./
 RUN dotnet restore
 
 # Copy the complete source code and build/publish it to
 # the /app directory in the image
-COPY /SampleWebApp/. ./
+COPY /CDAAS_TestFramework/. ./
 RUN dotnet publish -c Release -o /app
 
 # Expose ports outside the image
 EXPOSE 6000-6001
 
 # Run command for the web application
-ENTRYPOINT ["dotnet", "/app/SampleWebApp.dll"]
+ENTRYPOINT ["dotnet", "/app/CDAAS_TestFramework.dll"]
