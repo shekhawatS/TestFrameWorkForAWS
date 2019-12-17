@@ -20,4 +20,4 @@ RUN dotnet publish -c Release -o /app
 EXPOSE 6000-6001
 
 # Run command for the web application
-ENTRYPOINT ["dotnet", "/app/CDAAS_TestFramework.dll"]
+ENTRYPOINT ["dotnet", "vstest", "CDAAS_TestFramework.dll", "--Tests:test_to_run"]
