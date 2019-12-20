@@ -71,11 +71,11 @@ namespace CDAAS_TestFramework
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Add two numbers")]
+        [NUnit.Framework.DescriptionAttribute("Addition")]
         [NUnit.Framework.CategoryAttribute("test1")]
-        public virtual void AddTwoNumbers()
+        public virtual void Addition()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Addition", null, new string[] {
                         "test1"});
 #line 7
 this.ScenarioInitialize(scenarioInfo);
@@ -91,11 +91,11 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Subtract two numbers")]
+        [NUnit.Framework.DescriptionAttribute("Subtraction")]
         [NUnit.Framework.CategoryAttribute("test1")]
-        public virtual void SubtractTwoNumbers()
+        public virtual void Subtraction()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Subtract two numbers", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Subtraction", null, new string[] {
                         "test1"});
 #line 14
 this.ScenarioInitialize(scenarioInfo);
