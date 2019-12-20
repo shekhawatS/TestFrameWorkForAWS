@@ -1,5 +1,5 @@
 # Base the docker image on the Microsoft dotnet core 3.0 image
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0
+FROM microsoft/dotnet:2.1-sdk
 
 # Expose ASP.NET web app at port 6000
 ENV ASPNETCORE_URLS http://+:6000
