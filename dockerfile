@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.0
 ENV ASPNETCORE_URLS http://+:6000
 
 # Set current workdirectory in the docker image
-WORKDIR /tst
+WORKDIR /app
 
 # First only copy the web app project file inside the image and restore dependencies.
 COPY /testframework/CDAAS_TestFramework/CDAAS_TestFramework.csproj ./
