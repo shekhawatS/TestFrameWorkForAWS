@@ -6,7 +6,7 @@ namespace UnitTestProjectCoreMesTest
     public class UnitTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void FalseCheck()
         {
             //kept on purpose to test change
             Assert.IsFalse(true);
