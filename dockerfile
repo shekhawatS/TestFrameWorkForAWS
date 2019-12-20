@@ -19,5 +19,5 @@ RUN dotnet publish -c Release -o /app
 # Expose ports outside the image
 EXPOSE 6000-6001
 
-# Run command for the test application
+# Run command for the web application
 ENTRYPOINT ["dotnet", "vstest", "CDAAS_TestFramework.dll", "--Tests:test_to_run"]
