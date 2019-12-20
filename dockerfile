@@ -20,4 +20,4 @@ RUN dotnet publish -c Release -o /app
 EXPOSE 6000-6001
 
 # Run command for the test application
-ENTRYPOINT ["dotnet", "vstest", "/testframework/CDAAS_TestFramework/bin/Debug/netcoreapp2.1/TestFramework.dll", "--Tests:test_to_run"]
+ENTRYPOINT ["dotnet", "vstest", "CDAAS_TestFramework.dll", "--Tests:test_to_run"]
